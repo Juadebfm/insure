@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+:root {
+  --dark-violet: hsl(256, 26%, 20%);
+  --grayish-blue: hsl(216, 30%, 68%);
+  --very-dark-violet: hsl(270, 9%, 17%);
+  --dark-grayish-violet: hsl(273, 4%, 51%);
+  --light-gray: hsl(0, 0%, 98%);
+  --karla: "Karla", sans-serif;
+  --dmserif: "DM Serif Display", serif;
+}
+
+body {
+  font-family: var(--karla);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+nav .logo {
+  font-family: var(--dmserif);
+  color: var(--very-dark-violet);
+}
+
+nav .containerFix,
+.hero.containerFix {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+nav .nav-link {
+  color: var(--dark-grayish-violet);
+}
+
+nav .nav-link:hover {
+  color: var(--very-dark-violet);
+}
+
+.nav_btn,
+.hero_btn {
+  background: var(--dark-violet);
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.hero_btn {
+  background-color: white;
+  color: var(--dark-violet);
+}
+
+.hero {
+  background-color: var(--dark-violet);
+  height: 80vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  position: relative;
+}
+
+.hero .main_img {
+  margin-top: 12rem;
+}
+
+.hero .pattern1 {
+  position: absolute;
+  left: 0;
+  bottom: -260px;
+}
+
+.hero .pattern2 {
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+
+.hero .line {
+  width: 20%;
+  height: 2px;
+  background-color: var(--grayish-blue);
+  margin-bottom: 4rem;
+}
+
+.hero .heading_fix {
+  font-size: 60px;
+  font-family: var(--dmserif);
+}
+
+@media (max-width: 960px) {
+  nav .containerFix {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
