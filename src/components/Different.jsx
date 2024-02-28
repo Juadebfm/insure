@@ -9,8 +9,8 @@ const Different = () => {
         <div className="line"></div>
         <h1 className="heading_fix mb-3 text-capitalize">we're different</h1>
       </div>
-      <div className="w-100 d-flex align-items-center justify-content-center mt-5 row">
-        <div className="details_card col-lg-4 col-12">
+      <div className="w-100 d-flex align-items-center justify-content-center mt-5">
+        <div className="details_card">
           <img src={Lightening} alt="a" />
           <span className="fs-3">Snappy Process</span>
           <p className="mt-3">
@@ -18,7 +18,7 @@ const Different = () => {
             Don't get stuck filling in tedious forms.
           </p>
         </div>
-        <div className="details_card col-lg-4 col-12">
+        <div className="details_card">
           <img src={Prices} alt="b" />
           <span className="fs-3">Affordable Prices</span>
           <p className="mt-3">
@@ -26,7 +26,7 @@ const Different = () => {
             be low, but we still offer the best coverage possible.
           </p>
         </div>
-        <div className="details_card col-lg-4 col-12">
+        <div className="details_card">
           <img src={Lightening} alt="a" />
           <span className="fs-3">People First</span>
           <p className="mt-3">
