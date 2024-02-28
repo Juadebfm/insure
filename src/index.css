@@ -79,16 +79,48 @@ nav .nav-link:hover {
   top: 0px;
 }
 
-.hero .line {
+.hero .line,
+.different .line {
   width: 20%;
   height: 2px;
   background-color: var(--grayish-blue);
   margin-bottom: 4rem;
 }
 
+.different .line {
+  margin-bottom: 2.8rem;
+}
+
+.different .heading_fix {
+  font-family: var(--dmserif);
+}
+
 .hero .heading_fix {
   font-size: 60px;
   font-family: var(--dmserif);
+}
+
+.different {
+  padding:6rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.details_card img {
+  display: block;
+  height: 70px;
+  width: 70px;
+  margin-bottom: 18px;
+  height: max-content;
+}
+
+.details_card > span {
+  font-family: var(--dmserif);
+  margin-bottom: 10px;
 }
 
 @media (max-width: 960px) {
