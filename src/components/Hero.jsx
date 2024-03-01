@@ -5,9 +5,9 @@ import Pattern2 from "../assets/bg-pattern-intro-right-desktop.svg";
 
 const Hero = () => {
   return (
-    <section className="hero containerFix">
-      <img src={Pattern1} alt="" className="pattern1"/>
-      <div className="w-md-50 w-100  ">
+    <section className="hero containerFix d-md-flex">
+      <img src={Pattern1} alt="" className="pattern1" />
+      <div className="w-100 d-md-order-2">
         <div className="line"></div>
         <h1 className="heading_fix mb-3">
           Humanizing your <br /> insurance
@@ -21,10 +21,10 @@ const Hero = () => {
           View Plans
         </button>
       </div>
-      <div className="w-md-50 w-100">
+      <div className="w-100 d-md-order-1">
         <img src={Intro} alt="check" className="p-5 w-100 main_img" />
       </div>
-      <img src={Pattern2} alt="" className="pattern2"/>
+      <img src={Pattern2} alt="" className="pattern2" />
     </section>
   );
 };
